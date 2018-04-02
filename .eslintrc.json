@@ -1,0 +1,22 @@
+{
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ],
+    "rules": {
+        "linebreak-style" : 0,
+        "prefer-destructuring": ["error", {"object": true, "array": false}],
+          "jsx-a11y/anchor-is-valid": [ "error", {
+            "components": [ "Link" ],
+            "specialLink": [ "to" ]
+          }]
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "jquery": true
+    }
+}
