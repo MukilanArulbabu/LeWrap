@@ -29,19 +29,21 @@ class Cards extends React.Component {
   render() {
     return (
       <div className="mdl-grid">
-        {this.state.cards.map(card => (
-          <div className="wrap-card-square mdl-cell mdl-cell--4-col mdl-card mdl-shadow--3dp" key={card.id}>
-            <div className={card.supportClass} />
-            <div className="mdl-card__supporting-text">
-              {card.supportingText}
+        <div className="mdl-grid-custom">
+          {this.state.cards.map(card => (
+            <div className="wrap-card-square map-card mdl-card mdl-shadow--3dp" key={card.id}>
+              <div className={card.supportClass} />
+              <div className="mdl-card__supporting-text">
+                {card.supportingText}
+              </div>
+              <div className="mdl-card__actions mdl-card--border">
+                <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="/">
+                  {card.title}
+                </a>
+              </div>
             </div>
-            <div className="mdl-card__actions mdl-card--border">
-              <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="/">
-                {card.title}
-              </a>
-            </div>
-          </div>
-      ))};
+      ))}
+        </div>
       </div>
     );
   }

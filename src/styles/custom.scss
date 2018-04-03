@@ -1,3 +1,8 @@
+html, body {
+    font-family: 'Cookie', cursive;
+    font-size: 16px;
+}
+
 .mdl-layout__header{
     background-color: rgb(23, 20, 19) !important;
 }
@@ -8,10 +13,13 @@
     background-color: rgb(23, 20, 19) !important;
 }
 
+.mdl-layout__container {
+    background-color: #e7e7e7;
+}
+
 .wrap-card-square.mdl-card {
     height: 320px;
     width: 320px;
-    margin: 0 auto;
   }
   .wrap-food-menu {
     color: #fff;
@@ -26,4 +34,32 @@
 
 .addressText{
     width: 60%;
+}
+
+.mdl-grid-custom {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mdl-card.map-card {
+    width: 280px;
+    margin: 10px 25px;
+}
+
+.homeButton {
+    font-size: 2.5rem;
+    margin: 5px auto;
+}
+
+@media only screen and (max-width: 600px) {
+.mdl-grid-custom {
+    flex-direction: column;
+}
+.mdl-card.map-card {
+    width: 300px;
+    margin: 10px auto;
+}
 }

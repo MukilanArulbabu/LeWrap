@@ -38,21 +38,21 @@ class Stores extends React.Component {
   render() {
     return (
       <div className="mdl-grid">
-        {this.state.stores.map(store => (
-          <div className="mdl-cell mdl-cell--4-col" key={store.id}>
-            <div className="mdl-card mdl-shadow--3dp">
+        <div className="mdl-grid-custom">
+          {this.state.stores.map(store => (
+            <div className="mdl-card map-card mdl-shadow--3dp" key={store.id}>
               <Maps center={store.center} zoom={store.zoom} />
-            </div>
-            <div className="mdl-card__supporting-text">
-              <div className="headerText">
-                {store.name}
+              <div className="mdl-card__supporting-text">
+                <div className="headerText">
+                  {store.name}
+                </div>
+                <div className="addressText">
+                  {store.address}
+                </div>
               </div>
-              <div className="addressText">
-                {store.address}
-              </div>
             </div>
-          </div>
       ))}
+        </div>
       </div>
     );
   }

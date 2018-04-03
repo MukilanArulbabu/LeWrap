@@ -15,7 +15,7 @@ class header extends React.Component {
           <span className="mdl-layout-title">{this.state.title}</span>
         </div>
         <div className="mdl-layout__tab-bar mdl-js-ripple-effect">
-          <Link to="/home" className="mdl-layout__tab is-active"><i className="material-icons">home</i></Link>
+          <Link to="/home" className="mdl-layout__tab is-active"><i className="material-icons homeButton">home</i></Link>
           <Link to="/menus" className="mdl-layout__tab">Food Menu</Link>
           <Link to="/stores" className="mdl-layout__tab">Store Locator</Link>
           <Link to="/franchize" className="mdl-layout__tab">Franchise with ME</Link>
