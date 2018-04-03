@@ -3,53 +3,45 @@ import React from 'react';
 class Cards extends React.Component {
   constructor() {
     super();
-    this.state = {};
+    this.state = {
+      cards: [
+        {
+          id: 1,
+          title: 'Food Menu',
+          supportingText: 'Find our delicious food menu',
+          supportClass: 'wrap-food-menu mdl-card__title mdl-card--expand',
+        },
+        {
+          id: 2,
+          title: 'Store Locator',
+          supportingText: 'Find our stores near by',
+          supportClass: 'wrap-food-menu mdl-card__title mdl-card--expand',
+        },
+        {
+          id: 3,
+          title: 'Franchize With Us',
+          supportingText: 'Find our delicious food menu',
+          supportClass: 'wrap-food-menu mdl-card__title mdl-card--expand',
+        },
+      ],
+    };
   }
   render() {
     return (
       <div className="mdl-grid">
-        <div className="wrap-card-square mdl-cell mdl-cell--4-col mdl-card mdl-shadow--3dp">
-          <div className="wrap-food-menu mdl-card__title mdl-card--expand">
-            <h2 className="mdl-card__title-text">Update</h2>
+        {this.state.cards.map(card => (
+          <div className="wrap-card-square mdl-cell mdl-cell--4-col mdl-card mdl-shadow--3dp" key={card.id}>
+            <div className={card.supportClass} />
+            <div className="mdl-card__supporting-text">
+              {card.supportingText}
+            </div>
+            <div className="mdl-card__actions mdl-card--border">
+              <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="/">
+                {card.title}
+              </a>
+            </div>
           </div>
-          <div className="mdl-card__supporting-text">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Aenan convallis.
-          </div>
-          <div className="mdl-card__actions mdl-card--border">
-            <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="/">
-            Click Here
-            </a>
-          </div>
-        </div>
-        <div className="wrap-card-square mdl-cell mdl-cell--4-col mdl-card mdl-shadow--3dp">
-          <div className="wrap-food-menu mdl-card__title mdl-card--expand">
-            <h2 className="mdl-card__title-text">Update</h2>
-          </div>
-          <div className="mdl-card__supporting-text">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Aenan convallis.
-          </div>
-          <div className="mdl-card__actions mdl-card--border">
-            <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="/">
-            Click Here
-            </a>
-          </div>
-        </div>
-        <div className="wrap-card-square mdl-cell mdl-cell--4-col mdl-card mdl-shadow--3dp">
-          <div className="wrap-food-menu mdl-card__title mdl-card--expand">
-            <h2 className="mdl-card__title-text">Update</h2>
-          </div>
-          <div className="mdl-card__supporting-text">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Aenan convallis.
-          </div>
-          <div className="mdl-card__actions mdl-card--border">
-            <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="/">
-            Click Here
-            </a>
-          </div>
-        </div>
+      ))};
       </div>
     );
   }
