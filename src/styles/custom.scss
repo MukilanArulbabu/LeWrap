@@ -1,6 +1,10 @@
 html, body {
+    // font-family: 'Cookie', cursive;
+}
+
+.mdl-layout-title_font {
     font-family: 'Cookie', cursive;
-    font-size: 16px;
+    font-size: 3rem;
 }
 
 .mdl-layout__header{
@@ -13,6 +17,14 @@ html, body {
     background-color: rgb(23, 20, 19) !important;
 }
 
+// .mdl-layout__tab_font{
+//     font-size: 16px !important;
+// }
+
+// .mdl-card__supporting-text_font {
+//     font-size: 20px !important;
+// }
+
 .mdl-layout__container {
     background-color: #e7e7e7;
 }
@@ -23,12 +35,15 @@ html, body {
   }
   .wrap-food-menu {
     color: #fff;
-    background:
-      url('/public/images/cards/1.jpg') bottom right 15% no-repeat #46B6AC;
+    background: url('/public/images/cards/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .headerText{
     font-weight: 600 !important;
+    padding-bottom: 5px;
+    font-size: 20px;
     text-decoration: underline;
   }
 
@@ -62,4 +77,9 @@ html, body {
     width: 300px;
     margin: 10px auto;
 }
+}
+
+.mdl-card__supporting-text.content_text div {
+    color: #444;
+    font: 600 14px/34px Roboto, san-serif;
 }
