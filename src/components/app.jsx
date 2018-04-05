@@ -7,8 +7,10 @@ import '../styles/custom.scss';
 const app = () => (
   <div className="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <Header />
-    <Route />
-    <Footer />
+    <div className="mdl-layout__content-custom">
+      <Route />
+      <Footer />
+    </div>
   </div>
 );
 

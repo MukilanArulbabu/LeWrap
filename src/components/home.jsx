@@ -5,8 +5,10 @@ import Cards from './cards';
 import '../styles/custom.scss';
 
 const home = () => (
-  <div className="mdl-layout__content">
-    <ImageSlider />
+  <div>
+    <div className="mdl-layout_imageSlider">
+      <ImageSlider />
+    </div>
     <Cards />
   </div>
 );

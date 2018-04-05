@@ -8,9 +8,11 @@ class header extends React.Component {
       title: 'Le Wrap Factorie',
     };
   }
+
+
   render() {
     return (
-      <header className="mdl-layout__header">
+      <header className="mdl-layout__header mdl-layout--fixed-header-custom">
         <div className="mdl-layout__header-row">
           <span className="mdl-layout-title mdl-layout-title_font">{this.state.title}</span>
         </div>
