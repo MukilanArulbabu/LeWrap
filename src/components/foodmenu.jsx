@@ -32,23 +32,50 @@ class Food extends React.Component {
         },
         {
           id: 3,
-          src: 'public/images/cards/3.jpg',
-          items: ['Mexican Veg Warp ....... 80', 'Paneer Wrap .....90', 'Veg Wrap .....100', 'Mexican Veg Warp ....... 80', 'Paneer Wrap .....90', 'Veg Wrap .....100'],
+          title: 'Fries',
+          src: 'public/images/foodMenus/fries.jpg',
+          items: [
+            'Classic Fries .................. 60',
+            'Factorie Special Fries.......... 70',
+            'Honey N Chilli Fries ........... 80'],
         },
         {
           id: 4,
-          src: 'public/images/cards/1.jpg',
-          items: ['Mexican Veg Warp ....... 80', 'Paneer Wrap .....90', 'Veg Wrap .....100'],
+          title: 'Sandwiches',
+          src: 'public/images/foodMenus/sandwich.jpg',
+          items: [
+            'Simple Veg Sandwich ............ 50',
+            'Thousand Island ................ 60',
+            'Peppy Paneer ................... 70',
+            'Cheesy Delight ................. 70',
+            'Peanut Butter .................. 70',
+            'Chocolate Sandwich ............. 70',
+            'Chicken Appetizer .............. 80',
+            'Veg Club Sandwich .............. 80',
+            'Chicken Club Sandwich ......... 100'],
         },
+        
         {
           id: 5,
-          src: 'public/images/cards/2.jpg',
-          items: ['Mexican Veg Warp ....... 80', 'Paneer Wrap .....90', 'Veg Wrap .....100'],
+          title: 'Snackers',
+          src: 'public/images/foodMenus/snackers.jpg',
+          items: [
+            'Garlic Bread Cheese ............ 80',
+            'Garlic Bread Chilly Cheese...... 90',
+            'Potato Wedges .................. 80',
+            'Chicken Nuggets(6 Pcs) ......... 80',
+            'Cheese Nuggets(6 Pcs)',
+            'Veg / Corn / Chicken .......75 / 90 / 100'],
         },
         {
           id: 6,
-          src: 'public/images/cards/3.jpg',
-          items: ['Mexican Veg Warp ....... 80', 'Paneer Wrap .....90', 'Veg Wrap .....100', 'Mexican Veg Warp ....... 80', 'Paneer Wrap .....90', 'Veg Wrap .....100'],
+          title: 'Mocktails',
+          src: 'public/images/foodMenus/mocktail.jpg',
+          items: [
+            'Virgin Mojito .................. 75',
+            'Blue Curacao ................... 60',
+            'Green Apple Twist .............. 70',
+            'Melon Berry .................... 70'],
         },
       ],
     };
