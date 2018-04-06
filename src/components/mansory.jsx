@@ -9,6 +9,13 @@ const ImgStyle = {
   width: '100%',
 };
 
+const UlStyle = {
+  listStyle: 'none',
+  fontFamily: 'Roboto, sans-serif',
+  fontWeight: '600',
+  color: 'rgba(10, 2, 2, 0.54)',
+};
+
 class Gallery extends React.Component {
   constructor() {
     super();
@@ -17,10 +24,11 @@ class Gallery extends React.Component {
   render() {
     const childElements = this.props.elements.map(element => (
       <div className="map-card mdl-card mdl-shadow--3dp" key={element.id}>
+        <span className="monsoryHeader"> {element.title} </span>
         <li className="image-element-class">
           <img src={element.src} style={ImgStyle} />
         </li>
-        <ul className="mdl-card__supporting-text">
+        <ul className="mdl-card__supporting-text" style={UlStyle}>
           {element.items.map(item => (
             <li>
               {item}

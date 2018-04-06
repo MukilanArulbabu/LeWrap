@@ -1,0 +1,70 @@
+.store-header{
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+.store-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.mdl-grid-custom-stores {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 10px; 
+    background-color: #dadadafc;
+}
+.wrap-card-square.mdl-card {
+    height: 320px;
+    width: 320px;
+  }
+  .wrap-food-menu {
+    color: #fff;
+    background: url('/public/images/cards/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .wrap-store-locator {
+    color: #fff;
+    background: url('/public/images/cards/2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .wrap-franchize {
+    color: #fff;
+    background: url('/public/images/cards/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .headerText{
+    font-family: 'Cookie', cursive;
+    font-weight: 600 !important;
+    padding-bottom: 5px;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+.addressText{
+    font-family: 'Cookie', cursive;
+    font-weight: 500 !important;
+    font-size: 18px;
+    width: 70%;
+}
+
+.mdl-store-font-color {
+    color: white !important;
+}
