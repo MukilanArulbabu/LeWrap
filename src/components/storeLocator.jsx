@@ -84,7 +84,7 @@ class Stores extends React.Component {
     return (
       <div className="mdl-grid">
         <div>
-          <div className="store-header">
+          <div className="store-header mdl-shadow--3dp">
             <span className="store-title mdl-layout-title_font"> Our Stores </span>
           </div>
           <div className="mdl-grid-custom-stores mdl-shadow--3dp">

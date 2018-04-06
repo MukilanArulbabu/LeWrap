@@ -28,6 +28,20 @@ html, body {
 
 .mdl-layout__container {    
     background-color: #e7e7e7;
+    background: url('/public/images/background/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mdl-card-color {
+    background-color: black;
+}
+
+.mdl-button-custom-font {
+    font-family: 'Cookie', cursive;
+    color: white !important;
+    font-size: 18px;
+
 }
 
 .wrap-card-square.mdl-card {
@@ -37,6 +51,18 @@ html, body {
   .wrap-food-menu {
     color: #fff;
     background: url('/public/images/cards/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .wrap-store-locator {
+    color: #fff;
+    background: url('/public/images/cards/2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .wrap-franchize {
+    color: #fff;
+    background: url('/public/images/cards/3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -74,6 +100,12 @@ html, body {
     margin: 5px auto;
 }
 
+
+.mdl-layout_imageSlider{
+    width: 90%;
+    margin: 10px auto;
+}
+
 @media only screen and (max-width: 600px) {
 .mdl-grid-custom {
     flex-direction: column;
@@ -85,6 +117,11 @@ html, body {
     width: 300px;
     margin: 10px auto;
 }
+.mdl-layout_imageSlider{
+    width: 100%;
+    margin: 0 auto;
+}
+
 }
 
 .mdl-card__supporting-text.content_text div {
@@ -94,7 +131,6 @@ html, body {
 
 .store-header{
     background-color: black;
-    border: 1px solid;
     color: white;
     line-height: 50px;
     width: 80%;
@@ -141,3 +177,5 @@ html, body {
 //     right: 0;
 //     width: 100%;
 // }
+
+
