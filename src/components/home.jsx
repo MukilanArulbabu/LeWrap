@@ -6,8 +6,10 @@ import '../styles/custom.scss';
 
 const home = () => (
   <div>
-    <div className="mdl-layout_imageSlider mdl-shadow--3dp">
-      <ImageSlider />
+    <div className="sliderContainer mdl-shadow--3dp" >
+      <div className="mdl-layout_imageSlider">
+        <ImageSlider />
+      </div>
     </div>
     <Cards />
   </div>

@@ -102,8 +102,7 @@ html, body {
 
 
 .mdl-layout_imageSlider{
-    width: 90%;
-    margin: 10px auto;
+    padding: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -117,11 +116,6 @@ html, body {
     width: 300px;
     margin: 10px auto;
 }
-.mdl-layout_imageSlider{
-    width: 100%;
-    margin: 0 auto;
-}
-
 }
 
 .mdl-card__supporting-text.content_text div {
@@ -168,6 +162,23 @@ html, body {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+.sliderContainer {
+    background-color: #cec3bf;
+    width: 94%;
+    margin: 10px auto;
+}
+
+.set-active {
+    opacity: 1;
+    border-bottom: 2px solid #f1aa09;
+    bottom: 2px;
+}
+
+.imgContainer {
+    width: 80%;
+    height: 100%;
 }
 
 // .scroll-header {
