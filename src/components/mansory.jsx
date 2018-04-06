@@ -30,7 +30,7 @@ class Gallery extends React.Component {
         </li>
         <ul className="mdl-card__supporting-text" style={UlStyle}>
           {element.items.map(item => (
-            <li>
+            <li key={item}>
               {item}
             </li>
           ))}
