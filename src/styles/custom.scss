@@ -38,10 +38,8 @@ html, body {
 }
 
 .mdl-button-custom-font {
-    font-family: 'Cookie', cursive;
+    font: 400 14px/34px Roboto, san-serif;
     color: white !important;
-    font-size: 18px;
-
 }
 
 
@@ -126,4 +124,9 @@ html, body {
     background-color: black;
     color: white;
     padding: 5px 10px;
+}
+
+.mdl-layout-title_lewrap {
+    width: 230px;
+    height: 45px;
 }
