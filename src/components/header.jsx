@@ -20,7 +20,7 @@ class header extends React.Component {
           <Link to="/home" id="home" className="mdl-layout__tab mdl-button-custom-font">Home</Link>
           <Link to="/menus" id="foodmenu" className="mdl-layout__tab mdl-button-custom-font">Food Menu</Link>
           <Link to="/stores" id="stores" className="mdl-layout__tab mdl-button-custom-font">Stores</Link>
-          <Link to="/franchize" id="franchize" className="mdl-layout__tab mdl-button-custom-font">Franchise</Link>
+          {/* <Link to="/franchize" id="franchize" className="mdl-layout__tab mdl-button-custom-font">Franchise</Link> */}
           <Link to="/contactus" id="contactus" className="mdl-layout__tab mdl-button-custom-font">Contact Us</Link>
         </div>
       </header>

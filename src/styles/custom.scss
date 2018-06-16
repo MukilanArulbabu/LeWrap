@@ -74,9 +74,12 @@ html, body {
     flex-direction: column;
 }
 .mdl-card.map-card {
-    width: 300px;
     margin: 10px auto;
 }
+.contact-us-wrap {
+    width: 100% !important;
+}
+
 }
 
 .mdl-card__supporting-text.content_text div {
@@ -96,9 +99,9 @@ html, body {
     margin-top: 112px;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
+// ::-webkit-scrollbar {
+//     display: none;
+// }
 
 .sliderContainer {
     background-color: #cec3bf;
@@ -129,4 +132,50 @@ html, body {
 .mdl-layout-title_lewrap {
     width: 230px;
     height: 45px;
+}
+
+.contact-us-wrap {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.demo-card-wide.mdl-card {
+    margin: 0 auto;
+    width: 512px;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
 }

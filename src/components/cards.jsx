@@ -10,18 +10,21 @@ class Cards extends React.Component {
           title: 'Food Menu',
           supportingText: 'Find our delicious food menu',
           supportClass: 'wrap-food-menu mdl-card__title mdl-card--expand',
+          link: '/menus',
         },
         {
           id: 2,
           title: 'Store Locator',
           supportingText: 'Find our stores near by',
           supportClass: 'wrap-store-locator mdl-card__title mdl-card--expand',
+          link: '/stores',
         },
         {
           id: 3,
           title: 'Franchize With Us',
           supportingText: 'Come join with us',
           supportClass: 'wrap-franchize mdl-card__title mdl-card--expand',
+          link: '/contactus',
         },
       ],
     };
@@ -37,7 +40,7 @@ class Cards extends React.Component {
                 <div>{card.supportingText}</div>
               </div> */}
               <div className="mdl-card__actions mdl-card--border mdl-card-color">
-                <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button-custom-font" href="/">
+                <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button-custom-font" href={card.link}>
                   {card.title}
                 </a>
               </div>
