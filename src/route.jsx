@@ -4,7 +4,7 @@ import Home from './components/home';
 import StoreLocator from './components/storeLocator';
 import FoodMenus from './components/foodmenu';
 import ContactUs from './components/contactUs';
-import Franchize from './components/franchize';
+import Media from './components/Media';
 
 
 const Main = () => (
@@ -13,7 +13,7 @@ const Main = () => (
     <Route path="/home" component={Home} />
     <Route path="/menus" component={FoodMenus} />
     <Route path="/stores" component={StoreLocator} />
-    <Route path="/franchize" component={Franchize} />
+    <Route path="/media" component={Media} />
     <Route path="/contactus" component={ContactUs} />
   </div>
 );

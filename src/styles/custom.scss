@@ -4,8 +4,7 @@ html, body {
 }
 
 .mdl-layout-title_font {
-    font-family: 'Cookie', cursive;
-    font-size: 3rem;
+    font: 400 15px/40px 'Cookie', roboto;
 }
 
 .mdl-layout__header{
@@ -38,7 +37,7 @@ html, body {
 }
 
 .mdl-button-custom-font {
-    font: 400 14px/34px Roboto, san-serif;
+    // font: 400 14px/34px Roboto, san-serif;
     color: white !important;
 }
 
@@ -143,6 +142,10 @@ html, body {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    
+    label {
+        color: black
+    }
 }
 .demo-card-wide.mdl-card {
     margin: 0 auto;

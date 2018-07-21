@@ -19,7 +19,7 @@ class App extends React.Component {
     $('#home').removeClass('set-active');
     $('#foodmenu').removeClass('set-active');
     $('#stores').removeClass('set-active');
-    $('#franchize').removeClass('set-active');
+    $('#media').removeClass('set-active');
     $('#contactus').removeClass('set-active');
     if (url.pathname === '/home') {
       $('#home').addClass('set-active');
@@ -27,8 +27,8 @@ class App extends React.Component {
       $('#foodmenu').addClass('set-active');
     } else if (url.pathname === '/stores') {
       $('#stores').addClass('set-active');
-    } else if (url.pathname === '/franchize') {
-      $('#franchize').addClass('set-active');
+    } else if (url.pathname === '/media') {
+      $('#media').addClass('set-active');
     } else if (url.pathname === '/contactus') {
       $('#contactus').addClass('set-active');
     } else {

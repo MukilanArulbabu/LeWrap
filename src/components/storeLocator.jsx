@@ -1,5 +1,6 @@
 import React from 'react';
 import Maps from './googlemaps';
+import Title from './titleHeader';
 import '../styles/store.scss';
 
 class Stores extends React.Component {
@@ -85,10 +86,10 @@ class Stores extends React.Component {
     return (
       <div className="mdl-grid">
         <div>
-          <div className="store-header mdl-shadow--3dp">
+          <div className="store-header mdl-shadow--8dp">
             <span className="store-title mdl-layout-title_font"> Our Stores </span>
           </div>
-          <div className="mdl-grid-custom-stores mdl-shadow--3dp">
+          <div className="mdl-grid-custom-stores mdl-shadow--8dp">
             {this.state.stores.map((store) => {
               const MapUrl = `https://www.google.com/maps/search/?api=1&query=${store.center.lat},${store.center.lng}`;
               return (

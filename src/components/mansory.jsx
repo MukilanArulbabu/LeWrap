@@ -11,8 +11,9 @@ const ImgStyle = {
 
 const UlStyle = {
   listStyle: 'none',
-  fontFamily: 'Roboto, sans-serif',
-  fontWeight: '600',
+  fontFamily: 'Roboto script=all rev=2',
+  fontWeight: 700,
+  fontStyle: 'italic',
   color: 'rgba(10, 2, 2, 0.54)',
 };
 
