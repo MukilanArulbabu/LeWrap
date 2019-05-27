@@ -3,18 +3,16 @@ const path = require('path');
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 
-
 const app = express();
 const PORT = 3000;
 
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: '',
-    pass: '',
+    user: 'lewrapfactorie@gmail.com',
+    pass: 'dk@123456',
   },
 });
-
 
 app.use(express.static(__dirname));
 app.use(bodyParser.json({
@@ -35,10 +33,10 @@ app.get('/*', (req, res) => {
 app.post('/sendMail', (req, res) => {
   const mailfrom = req.body.email;
   const subject = `${req.body.firstName} ${req.body.lastName} - ${req.body.mobile}`;
-  const bodyData = req.body.comments;
+  const bodyData = `${mailfrom} - ${req.body.comments}`;
   const mailOptions = {
-    from: mailfrom,
-    to: 'sidhu24k@gmail.com',
+    from: 'lewrapfactorie@gmail.com',
+    to: 'lewrapfactorie@gmail.com',
     subject,
     text: bodyData,
   };

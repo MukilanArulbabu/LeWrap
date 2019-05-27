@@ -14,6 +14,22 @@ class Contact extends React.Component {
     const lname = $('#lname').val();
     const phone = $('#phone').val();
     const comments = $('#comments').val();
+    if (fname === '') {
+      $('#fname').focus();
+      return false;
+    }
+    if (fromMail === '') {
+      $('#email').focus();
+      return false;
+    }
+    if (phone === '') {
+      $('#phone').focus();
+      return false;
+    }
+    if (comments === '') {
+      $('#comments').focus();
+      return false;
+    }
     const sendData = {
       email: fromMail,
       firstName: fname,
@@ -26,10 +42,6 @@ class Contact extends React.Component {
       url: '/sendMail',
       data: sendData,
       dataType: 'text',
-      success(resultData) {
-        console.log(resultData);
-        alert('Save Complete');
-      },
       failure(err) {
         console.log(err);
       },
@@ -49,16 +61,16 @@ class Contact extends React.Component {
               <div className="container">
                 <form>
                   <label htmlFor="fname">First Name</label>
-                  <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+                  <input type="text" id="fname" name="firstname" required placeholder="Your name.." />
 
                   <label htmlFor="lname">Last Name</label>
                   <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
 
                   <label htmlFor="email">Email Address</label>
-                  <input type="text" id="email" name="email" placeholder="Your email.." />
+                  <input type="text" id="email" name="email" required placeholder="Your email.." />
 
                   <label htmlFor="phone">Mobile</label>
-                  <input type="text" id="phone" name="phone" placeholder="Your phone number.." />
+                  <input type="text" id="phone" name="phone" required placeholder="Your phone number.." />
 
                   <label htmlFor="comments">Comments</label>
                   <textarea id="comments" name="comments" placeholder="Write us something.." style={{ height: 200 }} />

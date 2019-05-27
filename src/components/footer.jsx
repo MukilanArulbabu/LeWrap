@@ -9,6 +9,14 @@ const footer = () => (
         <li><a href="/">Privacy & Terms</a></li>
       </ul>
     </div>
+    <div className="mdl-mini-footer__right-section ctUs">
+      <div>
+        <span>9884370900 | 9884829239</span>
+      </div>
+      <div>
+        <span>lewrapfactorie@gmail.com</span>
+      </div>
+    </div>
   </footer>
 );
 

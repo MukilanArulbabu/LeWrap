@@ -72,11 +72,83 @@ class Stores extends React.Component {
         zoom: 11,
       }, {
         id: 8,
+        name: 'Medavakkam',
+        address: '#135/136, Ground floor, PVG Tower, Velachery road, Medavakkam, Chennai-600100',
+        center: {
+          lat: 12.9177664,
+          lng: 80.1867429,
+        },
+        zoom: 11,
+      }, {
+        id: 9,
+        name: 'Adyar',
+        address: '#17, 1st Main Road, Gandhi Nagar, Adyar, Chennai-600020',
+        center: {
+          lat: 13.0070965,
+          lng: 80.2524731,
+        },
+        zoom: 11,
+      }, {
+        id: 10,
+        name: 'Navallur',
+        address: '1/398, Rajiv Gandhi Salai(Omr) , Navallur, Chennai, Tamil Nadu 603103',
+        center: {
+          lat: 12.9533355,
+          lng: 80.2240996,
+        },
+        zoom: 11,
+      }, {
+        id: 11,
+        name: 'KK Nagar, Madurai',
+        address: 'Ground Floor, Milanem Mall, 100 Feet Rd, Managiri, KK Nagar, Madurai, Tamil Nadu 625020',
+        center: {
+          lat: 9.9277875,
+          lng: 78.1409817,
+        },
+        zoom: 11,
+      }, {
+        id: 12,
+        name: 'Madurai',
+        address: 'Vishal de Mall, 4th Floor Food Court, Madurai,  Tamil Nadu 625020',
+        center: {
+          lat: 9.938274,
+          lng: 78.1339019,
+        },
+        zoom: 11,
+      }, {
+        id: 13,
         name: 'Ambur',
         address: '#10 NH48, Ambur, Vellore District, Somalapuram, Tamil Nadu 635802',
         center: {
           lat: 20.7542678,
           lng: 73.048026,
+        },
+        zoom: 11,
+      }, {
+        id: 14,
+        name: 'KK Nagar, Chennai',
+        address: 'No 894, Munuswamy Street, K K Nagar West, Chennai-600078',
+        center: {
+          lat: 13.040601,
+          lng: 80.1912539,
+        },
+        zoom: 11,
+      }, {
+        id: 15,
+        name: 'Padur',
+        address: 'S-637/2,Omr, Padur, Chennai, Tamil Nadu 603103',
+        center: {
+          lat: 12.8147976,
+          lng: 80.2269416,
+        },
+        zoom: 11,
+      }, {
+        id: 16,
+        name: 'T.Nagar',
+        address: 'Pothys Boutique,105-107, Gopathi Narayanaswami Chetty Rd, Parthasarathi Puram, T.Nagar, Chennai-600017',
+        center: {
+          lat: 13.0445473,
+          lng: 80.2376396,
         },
         zoom: 11,
       }],

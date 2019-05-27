@@ -114,3 +114,14 @@ h4 {
   box-sizing: border-box;
   margin-top: -5px;
 }
+.ctUs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 10px;
+  color: white;
+}
+
+.req {
+  border: 1px solid red;
+}
