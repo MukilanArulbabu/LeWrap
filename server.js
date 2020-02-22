@@ -2,9 +2,10 @@ const express = require('express');
 const path = require('path');
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
+const db = require('./db');
 
 const app = express();
-const PORT = 80;
+const PORT = 3000;
 
 const transporter = nodemailer.createTransport({
   service: 'gmail',
@@ -22,6 +23,9 @@ app.use(bodyParser.urlencoded({
   limit: '50mb',
   extended: true,
 }));
+
+db.initialize(app);
+
 app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'), (err) => {
     if (err) {

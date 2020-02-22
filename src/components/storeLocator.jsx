@@ -1,6 +1,6 @@
 import React from 'react';
 import Maps from './googlemaps';
-import Title from './titleHeader';
+import axios from 'axios';
 import '../styles/store.scss';
 
 class Stores extends React.Component {
@@ -154,6 +154,23 @@ class Stores extends React.Component {
       }],
     };
   }
+
+  async componentDidMount() {
+    try {
+      const res = await axios.get('/api/store');
+      const stores = res.data.map((d) => {
+        d.center = {
+          lat: d.lat,
+          lng: d.lon,
+        };
+        return d;
+      });
+      this.setState({ stores });
+    } catch (err) {
+      console.log('Hey dude this is err');
+    }
+  }
+
   render() {
     return (
       <div className="mdl-grid">

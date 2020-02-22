@@ -5,6 +5,7 @@ import StoreLocator from './components/storeLocator';
 import FoodMenus from './components/foodmenu';
 import ContactUs from './components/contactUs';
 import Media from './components/Media';
+import Admin from './components/admin';
 
 
 const Main = () => (
@@ -15,6 +16,7 @@ const Main = () => (
     <Route path="/stores" component={StoreLocator} />
     <Route path="/media" component={Media} />
     <Route path="/contactus" component={ContactUs} />
+    <Route path="/admin" component={Admin} />
   </div>
 );
 
