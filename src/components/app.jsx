@@ -23,16 +23,28 @@ class App extends React.Component {
     $('#contactus').removeClass('set-active');
     if (url.pathname === '/home') {
       $('#home').addClass('set-active');
+      $('#f1').show();
+      $('#f2').hide();
     } else if (url.pathname === '/menus') {
       $('#foodmenu').addClass('set-active');
+      $('#f1').show();
+      $('#f2').hide();
     } else if (url.pathname === '/stores') {
       $('#stores').addClass('set-active');
+      $('#f1').show();
+      $('#f2').hide();
     } else if (url.pathname === '/media') {
       $('#media').addClass('set-active');
+      $('#f1').show();
+      $('#f2').hide();
     } else if (url.pathname === '/contactus') {
       $('#contactus').addClass('set-active');
+      $('#f1').show();
+      $('#f2').hide();
     } else {
       $('#home').addClass('set-active');
+      $('#f1').hide();
+      $('#f2').show();
     }
   }
 
@@ -43,8 +55,9 @@ class App extends React.Component {
         {this.activeTabs()}
         <div className="mdl-layout__content">
           <Route />
-          <Footer />
+          <div id="f1"><Footer /></div>
         </div>
+        <div id="f2"><Footer /></div>
       </div>
     );
   }

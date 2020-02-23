@@ -6,10 +6,11 @@ import FoodMenus from './components/foodmenu';
 import ContactUs from './components/contactUs';
 import Media from './components/Media';
 import Admin from './components/admin';
+import Campaign from './components/campaign';
 
 
 const Main = () => (
-  <div>
+  <>
     <Route exact path="/" component={Home} />
     <Route path="/home" component={Home} />
     <Route path="/menus" component={FoodMenus} />
@@ -17,7 +18,8 @@ const Main = () => (
     <Route path="/media" component={Media} />
     <Route path="/contactus" component={ContactUs} />
     <Route path="/admin" component={Admin} />
-  </div>
+    <Route path="/frenchies" component={Campaign} />
+  </>
 );
 
 export default Main;

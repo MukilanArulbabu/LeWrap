@@ -3,6 +3,29 @@ html, body {
     // font-family: 'Cookie', cursive;
 }
 
+.lgo {
+    margin-top: 2px;
+    color: white;
+}
+
+.mdl-mini-footer {
+    padding: 0px !important;
+}
+
+.mdl-mini-footer__left-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.campaign-container {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 .mdl-layout-title_font {
     font: 400 15px/40px 'Cookie', roboto;
 }
@@ -168,6 +191,47 @@ html, body {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.c-font {
+    font-family: cursive;
+}
+
+.verifyBtn {
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 5px;
+    background-color: #f1aa09;
+    border: 0px;
+    border-radius: 5px;
+    font-family: cursive;
+}
+
+input[type=number] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 input[type=submit] {
