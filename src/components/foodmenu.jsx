@@ -25,7 +25,7 @@ class Food extends React.Component {
         {
           id: 2,
           title: 'Burgers',
-          src: 'public/images/foodMenus/burger.jpg',
+          src: 'public/images/foodMenus/burger_new.jpg',
           items: [
             'Regular Veg Burger.............. 70',
             'Paneer Burger .................. 95',

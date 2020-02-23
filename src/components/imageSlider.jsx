@@ -10,12 +10,16 @@ class Content extends React.Component {
     return (
       <Carousel showThumbs={false} autoPlay stopOnHover={false} infiniteLoop>
         <div>
-          <img src="/public/images/slides/slide2.jpg" alt="" />
-          <p className="legend">Delicious</p>
+          <img src="/public/images/slides/slide_new1.jpg" alt="" />
         </div>
         <div>
-          <img src="/public/images/slides/slide3.jpg" alt="" />
-          <p className="legend">Tasty Treat</p>
+          <img src="/public/images/slides/slide_new2.jpg" alt="" />
+        </div>
+        <div>
+          <img src="/public/images/slides/slide_new3.jpg" alt="" />
+        </div>
+        <div>
+          <img src="/public/images/slides/slide_new4.jpg" alt="" />
         </div>
       </Carousel>
     );

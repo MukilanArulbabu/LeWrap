@@ -11,7 +11,7 @@ const PORT = 3000;
 const apiKey = 'AB21F8FBUNJWS4N63XSJNNFHG6S2IOTG';
 const apiSecret = 'NUUHGXUT0POXV5AD';
 const type = 'prod';
-const senderId = 'leWrap';
+const senderId = 'LeWrap';
 
 const generated = [];
 const generateCode = (length) => {
