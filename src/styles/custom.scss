@@ -75,6 +75,7 @@ html, body {
 
 .mdl-card.map-card {
     width: 280px;
+    background: black;
     margin: 10px 25px;
 }
 
@@ -101,6 +102,10 @@ html, body {
     flex-direction: column;
 }
 .mdl-card.map-card {
+    margin: 10px auto;
+}
+.mdl-card.map-food-card {
+    width: 280px;
     margin: 10px auto;
 }
 .contact-us-wrap {
