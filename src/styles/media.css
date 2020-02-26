@@ -2,6 +2,9 @@ body {
   /* font-family: "Montserrat", sans-serif; */
   -webkit-font-smoothing: antialiased;
 }
+.document_3 {
+  margin: 0 100px;
+}
 .container-franchize {
   padding: 25px 100px;
   max-width: 1200px;

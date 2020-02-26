@@ -24,18 +24,8 @@ class Gallery extends React.Component {
   }
   render() {
     const childElements = this.props.elements.map(element => (
-      <div className="map-card mdl-card mdl-shadow--3dp" key={element.id}>
-        <span className="monsoryHeader mdl-button-custom-font"> {element.title} </span>
-        <li className="image-element-class">
-          <img src={element.src} style={ImgStyle} />
-        </li>
-        <ul className="mdl-card__supporting-text" style={UlStyle}>
-          {element.items.map(item => (
-            <li key={item}>
-              {item}
-            </li>
-          ))}
-        </ul>
+      <div className="map-food-card mdl-card" key={element.id}>
+        <img src={element.src} style={ImgStyle} />
       </div>
 
     ));

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Cards extends React.Component {
   constructor() {
@@ -24,7 +25,7 @@ class Cards extends React.Component {
           title: 'Franchize With Us',
           supportingText: 'Come join with us',
           supportClass: 'wrap-franchize mdl-card__title mdl-card--expand',
-          link: '/contactus',
+          link: '/franchise',
         },
       ],
     };
@@ -40,9 +41,7 @@ class Cards extends React.Component {
                 <div>{card.supportingText}</div>
               </div> */}
               <div className="mdl-card__actions mdl-card--border mdl-card-color">
-                <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button-custom-font" href={card.link}>
-                  {card.title}
-                </a>
+                <Link to={card.link} className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button-custom-font">{card.title}</Link>
               </div>
             </div>
       ))}

@@ -9,7 +9,7 @@ class Food extends React.Component {
         {
           id: 1,
           title: 'Wraps',
-          src: 'public/images/foodMenus/wrap.jpg',
+          src: 'public/images/foodMenus/menu1.jpg',
           items: [
             'Mexican Veg Warp ............... 85',
             'Paneer Wrap .................... 95',
@@ -25,7 +25,7 @@ class Food extends React.Component {
         {
           id: 2,
           title: 'Burgers',
-          src: 'public/images/foodMenus/burger_new.jpg',
+          src: 'public/images/foodMenus/menu2.jpg',
           items: [
             'Regular Veg Burger.............. 70',
             'Paneer Burger .................. 95',
@@ -37,7 +37,7 @@ class Food extends React.Component {
         {
           id: 3,
           title: 'Fries',
-          src: 'public/images/foodMenus/fries.jpg',
+          src: 'public/images/foodMenus/menu3.jpg',
           items: [
             'Classic Fries .................. 60',
             'Factorie Special Fries ......... 70',
@@ -48,7 +48,7 @@ class Food extends React.Component {
         {
           id: 4,
           title: 'Sandwiches',
-          src: 'public/images/foodMenus/sandwich.jpg',
+          src: 'public/images/foodMenus/menu4.jpg',
           items: [
             'Simple Veg Sandwich ............ 50',
             'Thousand Island ................ 60',
@@ -59,32 +59,31 @@ class Food extends React.Component {
             'Veg Club Sandwich .............. 80',
             'Chicken Club Sandwich ......... 110'],
         },
-        
-        {
-          id: 5,
-          title: 'Snackers',
-          src: 'public/images/foodMenus/snackers.jpg',
-          items: [
-            'Nachos (With Salsa & Mayo Dip) . 90',
-            'Potato Wedges .................. 80',            
-            'Cheese Corn Nuggets(6 pcs) ..... 90',
-            'Chicken Nuggets(6 Pcs) ......... 80',
-            'Chicken Cheese Nuggets(6 Pcs) . 110',
-            'Fish Fingers(6 Pcs) ........... 125',
-            'Chicken Tkki .................. 185',
-            'Hirali Malai Chicken .......... 185',
-            'Murg Chicken Kebab ............ 195'],
-        },
-        {
-          id: 6,
-          title: 'Mocktails',
-          src: 'public/images/foodMenus/mocktail.jpg',
-          items: [
-            'Virgin Mojito .................. 85',
-            'Blue Curacao ................... 80',
-            'Green Apple Twist .............. 80',
-            'Melon Berry .................... 80'],
-        },
+        // {
+        //   id: 5,
+        //   title: 'Snackers',
+        //   src: 'public/images/foodMenus/snackers.jpg',
+        //   items: [
+        //     'Nachos (With Salsa & Mayo Dip) . 90',
+        //     'Potato Wedges .................. 80',            
+        //     'Cheese Corn Nuggets(6 pcs) ..... 90',
+        //     'Chicken Nuggets(6 Pcs) ......... 80',
+        //     'Chicken Cheese Nuggets(6 Pcs) . 110',
+        //     'Fish Fingers(6 Pcs) ........... 125',
+        //     'Chicken Tkki .................. 185',
+        //     'Hirali Malai Chicken .......... 185',
+        //     'Murg Chicken Kebab ............ 195'],
+        // },
+        // {
+        //   id: 6,
+        //   title: 'Mocktails',
+        //   src: 'public/images/foodMenus/mocktail.jpg',
+        //   items: [
+        //     'Virgin Mojito .................. 85',
+        //     'Blue Curacao ................... 80',
+        //     'Green Apple Twist .............. 80',
+        //     'Melon Berry .................... 80'],
+        // },
       ],
     };
   }

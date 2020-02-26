@@ -7,6 +7,7 @@ import ContactUs from './components/contactUs';
 import Media from './components/Media';
 import Admin from './components/admin';
 import Campaign from './components/campaign';
+import Franchise from './components/franchize';
 
 
 const Main = () => (
@@ -18,7 +19,8 @@ const Main = () => (
     <Route path="/media" component={Media} />
     <Route path="/contactus" component={ContactUs} />
     <Route path="/admin" component={Admin} />
-    <Route path="/frenchies" component={Campaign} />
+    <Route path="/offers" component={Campaign} />
+    <Route path="/franchise" component={Franchise} />
   </>
 );
 
