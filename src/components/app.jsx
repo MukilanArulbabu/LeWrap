@@ -68,7 +68,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        {/* {this.state.openModal ? (<PopUp onOfferClick={this.onOfferClick} />) : (null)} */}
+        {this.state.openModal ? (<PopUp onOfferClick={this.onOfferClick} />) : (null)}
         <div className="mdl-layout mdl-js-layout mdl-layout--fixed-header">
           <Header />
           {this.activeTabs()}

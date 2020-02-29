@@ -18,7 +18,7 @@ const Franc = () => (
 
         <p>Promising expectations with low investment and high result, Rocketing with leaps and bounds, it is rapidly expanding and looking for people who can help build on the dream and take it to new horizons. Currently serving memories in 13 locations in Chennai,Madurai,Ambur. We're also looking to expand in major cities including Banglore,Mumbai, Chennai,Hyderabad and Delhi. Let us do it together and enjoy the journey.</p>
       </div>
-      <div className="document__content">
+      <div className="document_3">
         <h4> FAQ: </h4>
         <p>
           <div>1.	Why Le Wrap Factorie?</div>

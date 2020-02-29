@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const Campaign = () => {
   const [msg, setMsg] = useState('');
-  const [phone, setPh] = useState(0);
+  const [phone, setPh] = useState('');
 
   const handleChange = (e) => {
     setPh(e.target.value);
@@ -17,16 +17,18 @@ const Campaign = () => {
     const res = await axios.post('/campaign', { phone });
     const { data } = res;
     setMsg(data.msg);
+    setPh('');
   };
 
   return (
     <div className="campaign-container">
       <div className="document">
-        <p className="c-font" style={{ textAlign: 'center' }}>Verify your mobile number now to avail the offer!!</p>
+        {msg ? (<p>{msg}</p>) : (<div />)}
+        <p style={{ textAlign: 'center' }}>Verify your mobile number now to avail the offer!!</p>
         <div className="flex">
           <div style={{ textAlign: 'center' }}>
-            <input type="number" onChange={handleChange} name="ph-no" placeholder="+91" />
-            <button className="verifyBtn" onClick={sendSms}>Avail</button>
+            <input type="number" onChange={handleChange} value={phone} name="ph-no" placeholder="+91" />
+            <button className="verifyBtn" onClick={sendSms}>Verify</button>
             <p style={{ textAlign: 'left' }}>
               <div>Terms & Conditions:</div>
               <div>-  This offer is not valid without gift voucher.</div>
@@ -41,7 +43,6 @@ const Campaign = () => {
             </p>
           </div>
         </div>
-        {msg ? (<p>{msg}</p>) : (<div />)}
       </div>
     </div>
 

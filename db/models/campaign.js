@@ -10,5 +10,6 @@ const campaignModel = db.define('campaign', {
   phone: sequelize.STRING,
   code: sequelize.STRING,
   sent: sequelize.BOOLEAN,
+  codeVerified: sequelize.BOOLEAN,
 });
 module.exports = campaignModel;
