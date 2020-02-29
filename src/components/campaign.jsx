@@ -23,7 +23,7 @@ const Campaign = () => {
   return (
     <div className="campaign-container">
       <div className="document">
-        {msg ? (<p>{msg}</p>) : (<div />)}
+        {msg ? (<div className="alert-msg">{msg}</div>) : (<div />)}
         <p style={{ textAlign: 'center' }}>Verify your mobile number now to avail the offer!!</p>
         <div className="flex">
           <div style={{ textAlign: 'center' }}>
