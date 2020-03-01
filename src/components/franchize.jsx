@@ -14,7 +14,7 @@ const Franc = () => (
       <div className="document_3">
         <h4> Low Investment, High Returns </h4>
         <p><img src="/public/images/media/franchiseImg.jpg" style={{ width: '100%' }} alt="" /></p>
-        <p>It all starts with why.<br />
+        <p>It all starts with why?<br />
           Business with Low investment and High result is hard to hit upon. We bridge the gap. ‘Grow big with us’ is our message board signature.<br />
           Promising expectations with low investment and high result, rocketing with leaps and bounds, we are rapidly getting bigger and looking for people who can help build the intensifying dream and take it to new horizons.<br />
           Within a span of 5years our brand has been greeted and much awaited in major locations within the city. The roots are in Chennai but we are truly a nationalised company having outlets in 15+ locations in Chennai, Madurai and Ambur. And we don’t stop here, we are also looking forward to set our footprints in major cities like Banglore, Mumbai, Hyderabad and Delhi shortly.<br />

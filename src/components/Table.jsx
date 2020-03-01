@@ -51,7 +51,6 @@ class Store extends React.Component {
           <thead>
             <tr>
               <th>Phone</th>
-              <th>Code</th>
               <th>Date</th>
             </tr>
           </thead>
@@ -60,7 +59,6 @@ class Store extends React.Component {
         customers.map(customer => (
           <tr key={customer.id}>
             <td>{customer.phone}</td>
-            <td>{customer.code}</td>
             <td>{timeConvert(customer.createdAt)}</td>
           </tr>
         ))

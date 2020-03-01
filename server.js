@@ -82,7 +82,7 @@ app.post('/campaign', async (req, res) => {
     const phIdx = data.findIndex(d => d.phone === phone);
     if (phIdx === -1) {
       const code = generateCode(5)[0];
-      const sms = `Welcome to Le Wrap Factorie. Congratulations, Your voucher is active. Code-${code}`;
+      const sms = 'Welcome to Le Wrap Factorie. Congratulations, Your voucher is active.';
       const url = `https://www.sms4india.com/api/v1/sendCampaign?apikey=${apiKey}&secret=${apiSecret}&usetype=${type}&senderid=${senderId}&phone=${phone}&message=${sms}`;
       const resData = await axios.get(url);
       if (resData.data.code === '200 OK') {
