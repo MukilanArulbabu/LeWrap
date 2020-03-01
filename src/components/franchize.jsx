@@ -11,12 +11,15 @@ const Franc = () => (
 
       <hr className="brace" />
 
-      <div className="document__content">
-
+      <div className="document_3">
         <h4> Low Investment, High Returns </h4>
         <p><img src="/public/images/media/franchiseImg.jpg" style={{ width: '100%' }} alt="" /></p>
-
-        <p>Promising expectations with low investment and high result, Rocketing with leaps and bounds, it is rapidly expanding and looking for people who can help build on the dream and take it to new horizons. Currently serving memories in 13 locations in Chennai,Madurai,Ambur. We're also looking to expand in major cities including Banglore,Mumbai, Chennai,Hyderabad and Delhi. Let us do it together and enjoy the journey.</p>
+        <p>It all starts with why.<br />
+          Business with Low investment and High result is hard to hit upon. We bridge the gap. ‘Grow big with us’ is our message board signature.<br />
+          Promising expectations with low investment and high result, rocketing with leaps and bounds, we are rapidly getting bigger and looking for people who can help build the intensifying dream and take it to new horizons.<br />
+          Within a span of 5years our brand has been greeted and much awaited in major locations within the city. The roots are in Chennai but we are truly a nationalised company having outlets in 15+ locations in Chennai, Madurai and Ambur. And we don’t stop here, we are also looking forward to set our footprints in major cities like Banglore, Mumbai, Hyderabad and Delhi shortly.<br />
+          We are delighted to welcome the investors who would want to Make and Grow Business with us and enjoy this journey
+        </p>
       </div>
       <div className="document_3">
         <h4> FAQ: </h4>
@@ -73,7 +76,7 @@ const Franc = () => (
         <p>
           <div>If you’re interested to hear more about our Franchisee opportunities,</div>
           <div>Reach us at – 9176348700 ; 9884829239 ; 9884370900 ; lewrapfactorie@gmail.com</div>
-          <div>Or please fill in the form below, Our representative will reach you earliest: <Link to="/contactus">Contact Us</Link></div>
+          <div>Share us your details <Link to="/contactus">here</Link>, Our reprentative will reach you at the earliest.</div>
         </p>
       </div>
     </div>

@@ -8,6 +8,7 @@ import Media from './components/Media';
 import Admin from './components/admin';
 import Campaign from './components/campaign';
 import Franchise from './components/franchize';
+import Table from './components/Table';
 
 
 const Main = () => (
@@ -21,6 +22,7 @@ const Main = () => (
     <Route path="/admin" component={Admin} />
     <Route path="/offers" component={Campaign} />
     <Route path="/franchise" component={Franchise} />
+    <Route path="/customers" component={Table} />
   </>
 );
 
