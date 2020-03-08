@@ -27,6 +27,7 @@ module.exports.initialize = async (app) => {
   epilogue.resource({
     model: campaignModel,
     endpoints: ['/campaign', '/campaign/:id'],
+    pagination: false,
   });
 
   await database.sync();

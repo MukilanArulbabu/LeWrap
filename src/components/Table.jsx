@@ -50,6 +50,7 @@ class Store extends React.Component {
         <table>
           <thead>
             <tr>
+              <th>S.No</th>
               <th>Phone</th>
               <th>Date</th>
             </tr>
@@ -58,6 +59,7 @@ class Store extends React.Component {
             {customers.length ? (
         customers.map(customer => (
           <tr key={customer.id}>
+            <td>{customer.id}</td>
             <td>{customer.phone}</td>
             <td>{timeConvert(customer.createdAt)}</td>
           </tr>
