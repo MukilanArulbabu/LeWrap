@@ -13,7 +13,7 @@ class App extends React.Component {
   }
   componentDidMount() {
     this.activeTabs();
-    this.setState({ openModal: true });
+    // this.setState({ openModal: true });
   }
 
   onOfferClick = () => {
@@ -54,10 +54,10 @@ class App extends React.Component {
       $('#franchise').addClass('set-active');
       $('#f1').show();
       $('#f2').hide();
-    } else if (url.pathname === '/offers') {
-      $('#offers').addClass('set-active');
-      $('#f1').hide();
-      $('#f2').show();
+    // } else if (url.pathname === '/offers') {
+    //   $('#offers').addClass('set-active');
+    //   $('#f1').hide();
+    //   $('#f2').show();
     } else {
       $('#home').addClass('set-active');
       $('#f1').hide();
@@ -67,9 +67,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <>
-        {this.state.openModal ? (<PopUp onOfferClick={this.onOfferClick} />) : (null)}
-        <div className="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <>'
+        '{this.state.openModal ? (<PopUp onOfferClick={this.onOfferClick} />) : (null)}'
+        '<div className="mdl-layout mdl-js-layout mdl-layout--fixed-header">
           <Header />
           {this.activeTabs()}
           <div className="mdl-layout__content">
@@ -77,7 +77,14 @@ class App extends React.Component {
             <div id="f1"><Footer /></div>
           </div>
           <div id="f2"><Footer /></div>
-        </div>
+        </div>'
+        '<div className="call-me call-me-right">
+
+          <a href="https://wa.me/+919176348700/" className="btn btn-success">
+            <img className="watsapp" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />
+          </a>
+        </div>'
+        '
       </>
     );
   }

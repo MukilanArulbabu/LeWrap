@@ -26,6 +26,34 @@ class Stores extends React.Component {
         },
         zoom: 11,
       }, {
+        id: 9,
+        name: 'Adyar',
+        address: '#17, 1st Main Road, Gandhi Nagar, Adyar, Chennai-600020',
+        center: {
+          lat: 13.0070965,
+          lng: 80.2524731,
+        },
+        zoom: 11,
+      }, {
+        id: 10,
+        name: 'Anna Nagar',
+        address: 'K 28, 1st Ave, Block K, Annanagar East, Chennai, Tamil Nadu 600102',
+        center: {
+          lat: 13.090901,
+          lng: 80.223380,
+        },
+        zoom: 11,
+      }, {
+        id: 16,
+        name: 'T.Nagar',
+        address: 'Pothys Boutique,105-107, Gopathi Narayanaswami Chetty Rd, Parthasarathi Puram, T.Nagar, Chennai-600017',
+        center: {
+          lat: 13.0445473,
+          lng: 80.2376396,
+        },
+        zoom: 11,
+      },
+      {
         id: 3,
         name: 'Velachery',
         address: '#13, Velachery Rd, Dhadeswaram Nagar, Velachery, Chennai-600042',
@@ -45,11 +73,11 @@ class Stores extends React.Component {
         zoom: 11,
       }, {
         id: 5,
-        name: 'Perungudi',
-        address: '#D20, OMR Food Street,MGR Main Rd, Kandancavadi, Perungudi,Chennai-600096',
+        name: 'Chitlapakkam',
+        address: '21, Chitlapakkam Main Road, Gomathy Nagar, Selaiyur, Chennai, Tamil Nadu 600065',
         center: {
-          lat: 12.8499436,
-          lng: 79.9950759,
+          lat: 12.932149,
+          lng: 80.148504,
         },
         zoom: 11,
       }, {
@@ -62,39 +90,12 @@ class Stores extends React.Component {
         },
         zoom: 11,
       }, {
-        id: 7,
-        name: 'Ramapuram',
-        address: '#45, River View Road, Parthasarathy Nagar, Manapakkam, Ramapuram Chennai-600125',
-        center: {
-          lat: 13.0166538,
-          lng: 80.1831556,
-        },
-        zoom: 11,
-      }, {
         id: 8,
         name: 'Medavakkam',
         address: '#135/136, Ground floor, PVG Tower, Velachery road, Medavakkam, Chennai-600100',
         center: {
           lat: 12.9177664,
           lng: 80.1867429,
-        },
-        zoom: 11,
-      }, {
-        id: 9,
-        name: 'Adyar',
-        address: '#17, 1st Main Road, Gandhi Nagar, Adyar, Chennai-600020',
-        center: {
-          lat: 13.0070965,
-          lng: 80.2524731,
-        },
-        zoom: 11,
-      }, {
-        id: 10,
-        name: 'Navallur',
-        address: '1/398, Rajiv Gandhi Salai(Omr) , Navallur, Chennai, Tamil Nadu 603103',
-        center: {
-          lat: 12.9533355,
-          lng: 80.2240996,
         },
         zoom: 11,
       }, {
@@ -140,15 +141,6 @@ class Stores extends React.Component {
         center: {
           lat: 12.8147976,
           lng: 80.2269416,
-        },
-        zoom: 11,
-      }, {
-        id: 16,
-        name: 'T.Nagar',
-        address: 'Pothys Boutique,105-107, Gopathi Narayanaswami Chetty Rd, Parthasarathi Puram, T.Nagar, Chennai-600017',
-        center: {
-          lat: 13.0445473,
-          lng: 80.2376396,
         },
         zoom: 11,
       }],

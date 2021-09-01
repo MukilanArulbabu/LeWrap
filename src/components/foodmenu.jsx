@@ -9,7 +9,7 @@ class Food extends React.Component {
         {
           id: 1,
           title: 'Wraps',
-          src: 'public/images/foodMenus/menu1.jpg',
+          src: 'public/images/foodMenus/menu1_2021.png',
           items: [
             'Mexican Veg Warp ............... 85',
             'Paneer Wrap .................... 95',
@@ -25,7 +25,7 @@ class Food extends React.Component {
         {
           id: 2,
           title: 'Burgers',
-          src: 'public/images/foodMenus/menu2.jpg',
+          src: 'public/images/foodMenus/menu2_2021.png',
           items: [
             'Regular Veg Burger.............. 70',
             'Paneer Burger .................. 95',
@@ -37,7 +37,7 @@ class Food extends React.Component {
         {
           id: 3,
           title: 'Fries',
-          src: 'public/images/foodMenus/menu3.jpg',
+          src: 'public/images/foodMenus/menu3_2021.png',
           items: [
             'Classic Fries .................. 60',
             'Factorie Special Fries ......... 70',
@@ -45,27 +45,27 @@ class Food extends React.Component {
             'Peri Peri Fries ................ 75',
             'Honey N Chilli Fries ........... 80'],
         },
-        {
-          id: 4,
-          title: 'Sandwiches',
-          src: 'public/images/foodMenus/menu4.jpg',
-          items: [
-            'Simple Veg Sandwich ............ 50',
-            'Thousand Island ................ 60',
-            'Peppy Paneer ................... 70',
-            'Chocolate Sandwich ............. 70',
-            'Egg Sandwich ................... 70',
-            'Chicken Appetizer .............. 85',
-            'Veg Club Sandwich .............. 80',
-            'Chicken Club Sandwich ......... 110'],
-        },
+        // {
+        //   id: 4,
+        //   title: 'Sandwiches',
+        //   src: 'public/images/foodMenus/menu4.jpg',
+        //   items: [
+        //     'Simple Veg Sandwich ............ 50',
+        //     'Thousand Island ................ 60',
+        //     'Peppy Paneer ................... 70',
+        //     'Chocolate Sandwich ............. 70',
+        //     'Egg Sandwich ................... 70',
+        //     'Chicken Appetizer .............. 85',
+        //     'Veg Club Sandwich .............. 80',
+        //     'Chicken Club Sandwich ......... 110'],
+        // },
         // {
         //   id: 5,
         //   title: 'Snackers',
         //   src: 'public/images/foodMenus/snackers.jpg',
         //   items: [
         //     'Nachos (With Salsa & Mayo Dip) . 90',
-        //     'Potato Wedges .................. 80',            
+        //     'Potato Wedges .................. 80',
         //     'Cheese Corn Nuggets(6 pcs) ..... 90',
         //     'Chicken Nuggets(6 Pcs) ......... 80',
         //     'Chicken Cheese Nuggets(6 Pcs) . 110',

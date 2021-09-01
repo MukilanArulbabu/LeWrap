@@ -274,3 +274,108 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+
+.contact-main {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 30px auto;
+    padding: 30px;
+    background: rgba(12, 12, 11, 0.79);
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {  
+    .contact-main {
+        width: 100%;
+    }
+}
+
+.jss-38 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width: 600px) {
+    .MuiGrid-grid-sm-12 {
+        flex-grow: 0;
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+}
+.MuiGrid-grid-xs-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+.MuiGrid-item {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.MuiSvgIcon-root {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+    margin: 10px;
+}
+
+svg {
+    overflow: hidden;
+}
+img, svg {
+    vertical-align: middle;
+}
+
+.jss39 {
+    font-size: 17px;
+    font-weight: 400;
+}
+.MuiTypography-gutterBottom {
+    margin-bottom: 0.35em;
+}
+
+.MuiTypography-h6 {
+    font: 400 25px/56px 'Cookie', 'Roboto';
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 3px;
+}
+
+.MuiTypography-root {
+    margin: 0;
+}
+
+.call-me {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    z-index: 99999;
+} 
+.call-me-right {
+    left: unset;
+    right: 25px;
+}
+.watsapp {
+    width: 60px;
+    border-radius: 30px;
+}
+
+.alpha-footer {
+    min-height: 100px;
+    padding: 0px 10px;
+    background: black;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

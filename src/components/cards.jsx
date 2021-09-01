@@ -22,7 +22,7 @@ class Cards extends React.Component {
         },
         {
           id: 3,
-          title: 'Franchize With Us',
+          title: 'Franchise With Us',
           supportingText: 'Come join with us',
           supportClass: 'wrap-franchize mdl-card__title mdl-card--expand',
           link: '/franchise',
